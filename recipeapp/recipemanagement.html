@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Management</title>
+  <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Recipe Management System</h1>
+
+    <!-- User Registration Form -->
+    <section class="form-section">
+      <h2>User Registration</h2>
+      <form id="userForm">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="text" name="phone" placeholder="Phone">
+        <textarea name="address" placeholder="Address"></textarea>
+        <label>Profile Image:</label>
+        <input type="file" name="image" accept="image/*">
+        <button type="submit">Register User</button>
+      </form>
+    </section>
+
+    <!-- Recipe Form -->
+    <section class="form-section">
+      <h2>Add Recipe</h2>
+      <form id="recipeForm">
+        <label>Recipe Image:</label>
+        <input type="file" name="image" accept="image/*">
+        <textarea name="description" placeholder="Recipe Description" required></textarea>
+        <input type="time" name="cooking_time" placeholder="Cooking Time" required>
+        <input type="number" name="no_of_people" placeholder="No of People" required>
+        <input type="number" name="user_id" placeholder="User ID" required>
+        <button type="submit">Add Recipe</button>
+      </form>
+    </section>
+
+    <!-- Ingredients Form -->
+    <section class="form-section">
+      <h2>Add Ingredients</h2>
+      <form id="ingredientsForm">
+        <input type="number" name="user_id" placeholder="User ID" required>
+        <input type="number" name="recipe_id" placeholder="Recipe ID" required>
+        <button type="submit">Add Ingredients</button>
+      </form>
+    </section>
+
+    <!-- Steps Form -->
+    <section class="form-section">
+      <h2>Add Steps</h2>
+      <form id="stepsForm">
+        <input type="number" name="user_id" placeholder="User ID" required>
+        <label>Step Image:</label>
+        <input type="file" name="image" accept="image/*">
+        <input type="number" name="step_number" placeholder="Step Number" required>
+        <textarea name="step_description" placeholder="Step Description" required></textarea>
+        <button type="submit">Add Step</button>
+      </form>
+    </section>
+
+    <!-- Comment Form -->
+    <section class="form-section">
+      <h2>Add Comment</h2>
+      <form id="commentForm">
+        <input type="number" name="user_id" placeholder="User ID" required>
+        <input type="number" name="recipe_id" placeholder="Recipe ID" required>
+        <textarea name="text_description" placeholder="Comment" required></textarea>
+        <button type="submit">Add Comment</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>

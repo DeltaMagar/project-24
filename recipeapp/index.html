@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+      <span>Nepali Recipe Hub</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="./login.html">login</a></li>
+      <li><a href="./signup.html">sign up</a></li>
+    </ul>
+    <div class="search">
+      <input type="text" placeholder="Search...">
+    </div>
+    <button class="toggle-btn" id="toggleBtn">
+      <span class="menu">☰</span>
+      <span class="close">✖</span>
+    </button>
+  </nav>
+
+  <div class="gallery-container">
+    <div class="gallery-title">New and Trending</div>
+    <div class="image-grid">
+      <div class="image-item">
+        <img src="sukuti.jpg" alt="Image 1">
+        <p class="image-name">Sukuti Burger</p>
+      </div>
+      <div class="image-item">
+        <img src="rainbowmomo.jpg" alt="Image 2">
+        <p class="image-name">Rainbow Momos</p>
+      </div>
+      <div class="image-item">
+        <img src="sushi.jpg" alt="Image 3">
+        <p class="image-name"> Nepali-Style Sushi</p>
+      </div>
+      <div class="image-item">
+        <img src="chicken wing.jpg" alt="Image 4">
+        <p class="image-name">Timmur Chicken Wings</p>
+      </div>
+      <div class="image-item">
+        <img src="chocolate yamari.jpg" alt="Image 5">
+        <p class="image-name">chocolate yamari</p>
+      </div>
+      <div class="image-item">
+        <img src="kima roti.jpg" alt="Image 6">
+        <p class="image-name">Kima Roti</p>
+      </div>
+      <div class="image-item">
+        <img src="lapsi.jpg" alt="Image 7">
+        <p class="image-name">Lapsi Cheesecake</p>
+      </div>
+      <div class="image-item">
+        <img src="buckwheet.jpg" alt="Image 8">
+        <p class="image-name">Buckwheat Momos</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="find-recipes">
+    <h2 class="title">Find Recipe For</h2>
+    <div class="circle-options">
+      <div class="circle-item">
+        <img src="himalayana cuisine.jpg" alt="Option 1">
+        <p>Drinks</p>
+      </div>
+      <div class="circle-item">
+        <img src="hilly cuisine.jpg" alt="Option 2">
+        <p>Dessert</p>
+      </div>
+      <div class="circle-item">
+        <img src="terai cuisine.jpg" alt="Option 3">
+        <p>Lunch</p>
+      </div>
+      <div class="circle-item">
+        <img src="newari.jpg" alt="Option 4">
+        <p>Dinner</p>
+      </div>
+    </div>
+    <div class="search-container">
+      <input type="text" placeholder="Search for recipes..." class="search-input">
+      <button class="search-button">Search</button>
+    </div>
+  </div>
+
+  <div class="recipes-container">
+    <!-- First Recipe Section -->
+    <div class="recipe-section">
+      <h2>Breakfast Recipes</h2> 
+      <div class="recipe-images">
+        <div class="recipe-image-item">
+          <img src="samaya-baji.jpeg" alt="Recipe 1">
+          <p class="recipe-name">Samay Baji</p>
+        </div>
+        <div class="recipe-image-item">
+          <img src="Aloo-Puri-Bhaji.jpg" alt="Recipe 2">
+          <p class="recipe-name">Puri and Aloo Tarkari</p>
+        </div>
+        <div class="recipe-image-item">
+          <img src="chiya.jpg" alt="Recipe 3">
+          <p class="recipe-name">Chiya (Tea)</p>
+        </div>
+        <div class="recipe-image-item">
+          <img src="tsampa.jpg" alt="Recipe 4">
+          <p class="recipe-name">Tsampa</p>
+        </div>
+      </div>
+      <a href="breakfast.html" class="see-more-link">See More Recipes</a>
+    </div>
+  
+    <!-- Second Recipe Section -->
+    <div class="recipe-section">
+      <h2>Lunch Recipes</h2> 
+      <div class="recipe-images">
+        <div class="recipe-image-item">
+          <img src="momo.jpg" alt="Recipe 1">
+          <p class="recipe-name">Momo</p>
+        </div>
+        <div class="recipe-image-item">
+          <img src="dal-bhat-tarkari-(3).png" alt="Recipe 2">
+          <p class="recipe-name">Dal Bhat with Tarkari</p>
+        </div>
+        <div class="recipe-image-item">
+          <img src="puloa.jpg" alt="Recipe 3">
+          <p class="recipe-name">Pulao</p>
+        </div>
+        <div class="recipe-image-item">
+          <img src="chatamari.jpg" alt="Recipe 4">
+          <p class="recipe-name">Chatamari</p>
+        </div>
+      </div>
+      <a href="link-to-recipes-2.html" class="see-more-link">See More Recipes</a>
+    </div>
+  
+    <!-- Third Recipe Section -->
+    <div class="recipe-section">
+      <h2>Dessert Recipes</h2> 
+      <div class="recipe-images">
+        <div class="recipe-image-item">
+          <img src="juju dhau.jpg" alt="Recipe 1">
+          <p class="recipe-name">Juju Dhau</p>
+        </div>
+        <div class="recipe-image-item">
+          <img src="yomari.jpg" alt="Recipe 2">
+          <p class="recipe-name">Yomari</p>
+        </div>
+        <div class="recipe-image-item">
+          <img src="kheer.jpg" alt="Recipe 3">
+          <p class="recipe-name">Kheer</p>
+        </div>
+        <div class="recipe-image-item">
+          <img src="chaku.jpg" alt="Recipe 4">
+          <p class="recipe-name">Chaku</p>
+        </div>
+      </div>
+      <a href="link-to-recipes-3.html" class="see-more-link">See More Recipes</a>
+    </div>
+  </div>
+  
+  <!-- About Chef Section -->
+  <div class="about-chef">
+    <h2>About the Chef</h2>
+    <div class="chef-info">
+      <img src="chief.jpg" alt="Chef Picture" class="chef-image">
+      <p class="chef-description">
+        Meet Chef John Doe, the culinary genius behind our delicious recipes. With over 15 years of experience in the kitchen, Chef John specializes in creating dishes that are not only tasty but also tell a story. His passion for fresh ingredients and innovative cooking techniques has won the hearts of many food enthusiasts.
+      </p>
+      <a href="link-to-full-bio.html" class="read-more-link">Read More</a>
+    </div>
+  </div>
+  
+<!-- Latest Recipe Section -->
+<div class="latest-recipe-section unified-section">
+  <h2>Latest Recipe</h2>
+  <div class="latest-recipe-content">
+    <p>Check out our latest recipe:</p>
+    <div class="latest-recipe-gallery">
+      <div class="recipe-card">
+        <img src="grilled chicken.jpg" alt="" class="recipe-image">
+        <p class="recipe-title">Grilled chicken</p>
+      </div>
+      <div class="recipe-card">
+        <img src="sekuwa.jpg" alt="" class="recipe-image">
+        <p class="recipe-title">Sekuwa</p>
+      </div>
+      <div class="recipe-card">
+        <img src="sikarni.jpg" alt="" class="recipe-image">
+        <p class="recipe-title">Sikarni</p>
+      </div>
+      <div class="recipe-card">
+        <img src="sel roti.jpg" alt="" class="recipe-image">
+        <p class="recipe-title">Sel Roti</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Updated  Section -->
+<div class="updated-recipes-section unified-section">
+  <h2>Updated Recipes</h2>
+  <div class="updated-recipes-content">
+    <p>The new recipe has been added</p>
+    <div class="updated-recipe-gallery">
+      <div class="recipe-card">
+        <img src="thkali.jpg" alt="" class="recipe-image">
+        <p class="recipe-title">Thakali Set</p>
+      </div>
+      <div class="recipe-card">
+        <img src="dhido.jpg" alt="" class="recipe-image">
+        <p class="recipe-title">Dhido</p>
+      </div>
+      <div class="recipe-card">
+        <img src="mango cake.jpg" alt="" class="recipe-image">
+        <p class="recipe-title">Mango Cake </p>
+      </div>
+      <div class="recipe-card">
+        <img src="choila.jpg" alt="" class="recipe-image">
+        <p class="recipe-title">choila</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="site-footer">
+  <div class="footer-container">
+   
+    <div class="footer-column">
+      <h3>Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#recipes">Recipes</a></li>
+        <li><a href="#about">About Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Newsletter</h3>
+      <p>Subscribe to our newsletter for the latest recipes and updates.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" class="newsletter-input">
+        <button type="submit" class="newsletter-btn">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="footer-column">
+      <h3>Information</h3>
+      <p>We are passionate about sharing delicious recipes with the world. Contact us for collaborations or inquiries.</p>
+      <p>Email: info@example.com</p>
+      <p>Phone: +123 456 7890</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 YourWebsiteName. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+   <script src="script.js"></script>
+  </body>
+</html>  
